@@ -1,0 +1,16 @@
+Dokumentation
+TODO:
+Raspi neukonfiguerien nach defekt... (Standard-Einstellungen)
+Libraries und Treiber installlieren:
+TensorFlow_Lite installieren, Verzeichnis aus Git-Repository in Raspi einfügen
+Bei weiteren Errors entsprechend benötigte Treiber/Imports nachinstallieren(ka momentan was noch benötigt wird)
+-notiz an mo: die ganzen apt install sachen die du mal gemacht hast, sind, denke ich, relativ unwichtig.
+
+
+
+
+
+ONGOING:
+-[IN BEARBEITUNG] weiteres Scan-Object (DataDog-Sticker) einfügen
+-per Knopf den Scanner an- und ausschalten können
+-FERTIG
