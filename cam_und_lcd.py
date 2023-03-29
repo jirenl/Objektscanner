@@ -103,9 +103,9 @@ def run(model: str, max_results: int, score_threshold: float, num_threads: int,
       cv2.putText(image, result_text, text_location, cv2.FONT_HERSHEY_PLAIN,
                   _FONT_SIZE, _TEXT_COLOR, _FONT_THICKNESS)
       
-        display.lcd_display_string(category_name, 1)  # Write line of text to >
-        display.lcd_display_string(str(round(score*100,2)) + '%', 2)  # Write line of text to >
-        sleep(1)
+      display.lcd_display_string(category_name, 1)  # Write line of text to >
+      display.lcd_display_string(str(round(score*100,2)) + '%', 2)  # Write line of text to >
+      sleep(1)
 
     # Calculate the FPS
     if counter % _FPS_AVERAGE_FRAME_COUNT == 0:
